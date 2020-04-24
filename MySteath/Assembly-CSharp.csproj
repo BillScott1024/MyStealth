@@ -88,6 +88,7 @@
     <Compile Include="Assets\Done\DoneScripts\UnappliedScripts\DoneTags.cs" />
     <Compile Include="Assets\Done\DoneScripts\UnappliedScripts\guiTextSet.cs" />
     <Compile Include="Assets\Scripts\AlarmLight.cs" />
+    <Compile Include="Assets\Scripts\Tags.cs" />
     <None Include="Assets\Shaders\ReflectiveDiffuseSpecTransp.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>G:/Git/PersonalProject/MySteath/MySteath/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
