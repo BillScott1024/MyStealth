@@ -2,7 +2,7 @@
 
 public static class Tags
 {
-    public static string Player = "PLayer";
+    public static string Player = "Player";
     public static string MainLight = "MainLight";
     public static string AlarmLight = "AlarmLight";
     public static string GameController = "GameController";
