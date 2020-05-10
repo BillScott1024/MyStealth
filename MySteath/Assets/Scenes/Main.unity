@@ -1994,6 +1994,18 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &906687149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906687144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cff94c8b71156ff4598e422e709efb1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &942997985
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7336,6 +7348,7 @@ GameObject:
   - component: {fileID: 1627973470}
   - component: {fileID: 1627973469}
   - component: {fileID: 1627973471}
+  - component: {fileID: 1627973472}
   m_Layer: 0
   m_Name: gameController
   m_TagString: GameController
@@ -7472,6 +7485,30 @@ MonoBehaviour:
   lightLowIntersity: 0
   fadeSpeed: 7
   musicFadeSpeed: 1
+--- !u!114 &1627973472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627973468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20274c798780fb44bb0792ca522af032, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dyingState: 0
+  locomotionState: 0
+  shoutState: 0
+  deadBool: 0
+  speedFloat: 0
+  sneakingBool: 0
+  shoutingBool: 0
+  playerInSightBool: 0
+  shotFloat: 0
+  aimWeightFloat: 0
+  angularSpeedFloat: 0
+  openBool: 0
 --- !u!1 &1636902222
 GameObject:
   m_ObjectHideFlags: 0
