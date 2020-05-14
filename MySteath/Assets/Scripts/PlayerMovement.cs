@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bool shout = Input.GetButtonDown("Attrack");
+        bool shout = Input.GetButtonDown("Attract");
         animator.SetBool(hash.shoutingBool, shout);
         AudioManagement(shout);
     }
@@ -66,7 +66,7 @@ public class PlayerMovement : MonoBehaviour
     void AudioManagement(bool shout)
     {
         AudioSource audioSource = GetComponent<AudioSource>();
-        if (animator.GetCurrentAnimatorStateInfo(0).nameHash == hash.locomotionState)
+        if (animator.GetCurrentAnimatorStateInfo(0).fullPathHash == hash.locomotionState)
         {
             if (!audioSource.isPlaying)
             {
