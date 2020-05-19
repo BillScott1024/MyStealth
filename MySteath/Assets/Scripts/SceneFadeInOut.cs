@@ -48,7 +48,7 @@ public class SceneFadeInOut : MonoBehaviour
         }
     }
 
-    void EndScene()
+    public void EndScene()
     {
         rawImage.enabled = true;
         FadeToBlack();

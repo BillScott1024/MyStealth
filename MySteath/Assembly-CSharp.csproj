@@ -90,12 +90,17 @@
     <Compile Include="Assets\Scripts\AlarmLight.cs" />
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\CCTVPlayerDetection.cs" />
+    <Compile Include="Assets\Scripts\DoorAnimation.cs" />
     <Compile Include="Assets\Scripts\HashIDs.cs" />
+    <Compile Include="Assets\Scripts\KeyPickup.cs" />
     <Compile Include="Assets\Scripts\LaserBlinking.cs" />
     <Compile Include="Assets\Scripts\LaserPlayerDetection.cs" />
     <Compile Include="Assets\Scripts\LastPlayerSighting.cs" />
+    <Compile Include="Assets\Scripts\PlayerHealth.cs" />
+    <Compile Include="Assets\Scripts\PlayerInventory.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\SceneFadeInOut.cs" />
+    <Compile Include="Assets\Scripts\SwitchDeActivation.cs" />
     <Compile Include="Assets\Scripts\Tags.cs" />
     <None Include="Assets\Shaders\ReflectiveDiffuseSpecTransp.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
