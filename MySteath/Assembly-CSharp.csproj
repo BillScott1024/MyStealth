@@ -91,6 +91,9 @@
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\CCTVPlayerDetection.cs" />
     <Compile Include="Assets\Scripts\DoorAnimation.cs" />
+    <Compile Include="Assets\Scripts\EnemyMovement.cs" />
+    <Compile Include="Assets\Scripts\EnemyShooting.cs" />
+    <Compile Include="Assets\Scripts\EnemySight.cs" />
     <Compile Include="Assets\Scripts\HashIDs.cs" />
     <Compile Include="Assets\Scripts\KeyPickup.cs" />
     <Compile Include="Assets\Scripts\LaserBlinking.cs" />
@@ -100,6 +103,7 @@
     <Compile Include="Assets\Scripts\PlayerInventory.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\SceneFadeInOut.cs" />
+    <Compile Include="Assets\Scripts\SimpleLocomotion.cs" />
     <Compile Include="Assets\Scripts\SwitchDeActivation.cs" />
     <Compile Include="Assets\Scripts\Tags.cs" />
     <None Include="Assets\Shaders\ReflectiveDiffuseSpecTransp.shader" />
